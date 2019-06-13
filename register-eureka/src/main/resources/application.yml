@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: eureka-server
+
+# 默认使用哪个配置文件
+  profiles:
+    active: server1

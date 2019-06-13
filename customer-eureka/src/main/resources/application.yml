@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: customer-eureka
+
+server:
+  port: 3111
+
+eureka:
+  client:
+    # 配置 eureka 注册中心地址
+    service-url:
+      defaultZone: http://localhost:1001/eureka,http://localhost:1002/eureka

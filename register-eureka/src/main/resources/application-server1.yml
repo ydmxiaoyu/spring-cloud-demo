@@ -1,0 +1,10 @@
+server:
+  port: 1001
+eureka:
+  client:
+    # 当前服务是注册中心
+    register-with-eureka: false
+    # 不从注册中心获取注册信息
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:1001/eureka
